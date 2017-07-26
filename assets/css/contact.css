@@ -1,0 +1,64 @@
+.form_container {
+	margin: 0 auto;
+	/*margin-top: 16px;*/
+	margin-top:10%;
+	padding: 32px;
+	box-shadow: $bs;
+	border-radius: 4px;
+	text-align: left;
+}
+
+.masthead,
+.mastfoot {
+	position: absolute;
+}
+
+@media(max-width:767px) {
+	.form_container {
+		margin: 0;
+		padding: 16px;
+	}
+	.masthead,
+	.mastfoot {
+		position: relative
+	}
+	h4 {
+		word-spacing: -5px;
+	}
+}
+
+@media (min-width: 359px) and (max-width: 375px) {
+	h4 {
+		font-size: 17px;
+	}
+	h2 {
+		font-size: 29px;
+	}
+}
+
+@media (max-width: 358px) {
+	h4 {
+		font-size: 14px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 789px) {
+	body {
+		overflow-x: hidden;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1009px) {
+	body {
+		overflow-x: hidden;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1209px) {
+	body {
+		overflow-x: hidden;
+	}
+}
